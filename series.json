@@ -1,0 +1,1622 @@
+[
+  {
+    "id": 1,
+    "title": "Ninjago",
+    "status": "Complete",
+    "rating": "9.2",
+    "description": "Long before time had a name, there was the Realm of the Oni and the Dragon...The Dragon had the power to create. The Oni had the power to destroy. Their war was never ending. But a child arrived, born of both worlds. The child understood the power of both. Without one, you could not have the other. But when the Oni and the Dragon fought over which side the child should choose, the child abandoned their world to start a new one called Ninjago.",
+    "poster": "images/poster.jpeg",
+    "backdrop": "images/NP.jpg",
+    "cast": [
+      "Vincent Tong: Kai",
+      "Kelly Metzger: Nya",
+      "Michael Adamthwaite: Jay",
+      "Kirby Morrow: Cole",
+      "Brent Miller: Zane",
+      "Jillian Michaels: Lloyd"
+    ],
+    "trailer": "https://www.youtube.com/embed/1vpNcfM1xE8?si=M732umGohGgz10zn",
+    "episodes": {
+      "Pilot": [
+        {
+          "title": "Way of the Ninja/The Golden Weapon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/pilot_1_and_2"
+        },
+        {
+          "title": "King Of Shadown/Weapons Of Density",
+          "duration": "22m",
+          "video": "https://archive.org/embed/pilot_3_and_4"
+        }
+      ],
+      "Season 1": [
+        {
+          "title": "Rise Of The Snakes",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-1-rise-of-the-snakes"
+        },
+        {
+          "title": "Home",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-2-home"
+        },
+        {
+          "title": "Snakebit",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-3-snakebit"
+        },
+        {
+          "title": "Never Trust A Snake",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-4-never-trust-a-snake"
+        },
+        {
+          "title": "Can Of Worms",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-5-can-of-worms"
+        },
+        {
+          "title": "The Snake King",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-6-the-snake-king"
+        },
+        {
+          "title": "Tick Tock",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-7-tick-tock"
+        },
+        {
+          "title": "Once Bitten Twice Shy",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-8-once-bitten-twice-shy"
+        },
+        {
+          "title": "The Royal Blacksmiths",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-9-the-royal-blacksmiths"
+        },
+        {
+          "title": "The Green Ninja",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-10-the-green-ninja"
+        },
+        {
+          "title": "All Of Nothing",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-11-all-of-nothing"
+        },
+        {
+          "title": "The Rise Of The Great Devourer",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-12-rise-of-the-great-devourer"
+        },
+        {
+          "title": "The Day Of The Great Devourer",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-13-day-of-the-great-devourer"
+        }
+      ],
+      "Season 2": [
+        {
+          "title": "Darkness Shall Rise",
+          "duration": "22m",
+          "video": "atfhu6h2sayf"
+        },
+        {
+          "title": "Pirates vs. Ninja",
+          "duration": "22m",
+          "video": "z95amnsn2efj"
+        },
+        {
+          "title": "Double Trouble",
+          "duration": "22m",
+          "video": "9yf0cyx1ifvj"
+        },
+        {
+          "title": "Ninjaball Run",
+          "duration": "22m",
+          "video": "ky2e7vsro2en"
+        },
+        {
+          "title": "Child's Play",
+          "duration": "22m",
+          "video": "4az1pb9iifzw"
+        },
+        {
+          "title": "Wrong Place, Wrong Time",
+          "duration": "22m",
+          "video": "ihzeo587rya5"
+        },
+        {
+          "title": "The Stone Army",
+          "duration": "22m",
+          "video": "oit3ajzyi09i"
+        },
+        {
+          "title": "The Day Ninjago Stood Still",
+          "duration": "22m",
+          "video": "k5qinmhkkv2b"
+        },
+        {
+          "title": "The Last Voyage",
+          "duration": "22m",
+          "video": "u0jajd2smn5c"
+        },
+        {
+          "title": "Island of Darkness",
+          "duration": "22m",
+          "video": "m5qmk2jqol5n"
+        },
+        {
+          "title": "The Last Hope",
+          "duration": "22m",
+          "video": "tbywre6gb9a2"
+        },
+        {
+          "title": "Return of the Overlord",
+          "duration": "22m",
+          "video": "d153d9lq9lim"
+        },
+        {
+          "title": "Rise of the Spinjitzu Master",
+          "duration": "22m",
+          "video": "m1ejw73swf1m"
+        }
+      ],
+      "Season 3": [
+        {
+          "title": "The Surge",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E01"
+        },
+        {
+          "title": "The Art of the Silent Fist",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E02"
+        },
+        {
+          "title": "Blackout",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E03"
+        },
+        {
+          "title": "The Curse of the Golden Master",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E04"
+        },
+        {
+          "title": "Enter the Digiverse",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E05"
+        },
+        {
+          "title": "Codename: Arcturus",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E06"
+        },
+        {
+          "title": "The Void",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E07"
+        },
+        {
+          "title": "The Titanium Ninja",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S03E08"
+        }
+      ],
+      "Season 4": [
+        {
+          "title": "The Invitation",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E01"
+        },
+        {
+          "title": "Only One Can Remain",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E02"
+        },
+        {
+          "title": "Versus",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E03"
+        },
+        {
+          "title": "Ninja Roll",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E04"
+        },
+        {
+          "title": "Spy for a Spy",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E05"
+        },
+        {
+          "title": "Spellbound",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E06"
+        },
+        {
+          "title": "The Forgotten Element",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E07"
+        },
+        {
+          "title": "The Day of the Dragon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E08"
+        },
+        {
+          "title": "The Greatest Fear of All",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E09"
+        },
+        {
+          "title": "The Corridor of Elders",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S04E10"
+        }
+      ],
+      "Season 5": [
+        {
+          "title": "Winds of Change",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E01"
+        },
+        {
+          "title": "Ghost Story",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E02"
+        },
+        {
+          "title": "Stiix and Stones",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E03"
+        },
+        {
+          "title": "The Temple on Haunted Hill",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E04"
+        },
+        {
+          "title": "Peak-a-Boo",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E05"
+        },
+        {
+          "title": "Kingdom Come",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E06"
+        },
+        {
+          "title": "The Crooked Path",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E07"
+        },
+        {
+          "title": "Grave Danger",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E08"
+        },
+        {
+          "title": "Curseworld Part I",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E09"
+        },
+        {
+          "title": "Curseworld Part II",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S05E10"
+        }
+      ],
+      "Season 6": [
+        {
+          "title": "Infamous",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E01"
+        },
+        {
+          "title": "Public Enemy Number One",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E02"
+        },
+        {
+          "title": "Enkrypted",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E03"
+        },
+        {
+          "title": "Misfortune Rising",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E04"
+        },
+        {
+          "title": "On a Wish and a Prayer",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E05"
+        },
+        {
+          "title": "My Dinner With Nadakhan",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E06"
+        },
+        {
+          "title": "Wishmasters",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E07"
+        },
+        {
+          "title": "The Last Resort",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E08"
+        },
+        {
+          "title": "Operation Land Ho!",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E09"
+        },
+        {
+          "title": "The Way Back",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S06E10"
+        }
+      ],
+      "Day of The Departed": [
+        {
+          "title": "Day of the Departed",
+          "duration": "44m",
+          "video": "2gcv3bic1zls"
+        }
+      ],
+      "Season 7": [
+        {
+          "title": "The Hands of Time",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E01"
+        },
+        {
+          "title": "The Hatching",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E02"
+        },
+        {
+          "title": "A Time of Traitors",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E03"
+        },
+        {
+          "title": "Scavengers",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E04"
+        },
+        {
+          "title": "A Line in the Sand",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E05"
+        },
+        {
+          "title": "The Attack",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E06"
+        },
+        {
+          "title": "Secrets Discovered",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E07"
+        },
+        {
+          "title": "Pause and Effect",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E08"
+        },
+        {
+          "title": "Out of the Fire and Into the Boiling Sea",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E09"
+        },
+        {
+          "title": "Lost in Time",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S07E10"
+        }
+      ],
+      "Season 8": [
+        {
+          "title": "The Mask of Deception",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E01"
+        },
+        {
+          "title": "The Jade Princess",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E02"
+        },
+        {
+          "title": "The Oni and the Dragon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E03"
+        },
+        {
+          "title": "Snake Jaguar",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E04"
+        },
+        {
+          "title": "Dead Man's Squall",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E05"
+        },
+        {
+          "title": "The Quiet One",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E06"
+        },
+        {
+          "title": "Game of Masks",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E07"
+        },
+        {
+          "title": "Dread on Arrival",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E08"
+        },
+        {
+          "title": "True Potential",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E09"
+        },
+        {
+          "title": "Big Trouble, Little Ninjago",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S08E10"
+        }
+      ],
+      "Season 9": [
+        {
+          "title": "Firstbourne",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E01"
+        },
+        {
+          "title": "Iron & Stone",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E02"
+        },
+        {
+          "title": "Radio Free Ninjago",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E03"
+        },
+        {
+          "title": "How to Build a Dragon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E04"
+        },
+        {
+          "title": "The Gilded Path",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E05"
+        },
+        {
+          "title": "Two Lies, One Truth",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E06"
+        },
+        {
+          "title": "The Weakest Link",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E07"
+        },
+        {
+          "title": "Saving Faith",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E08"
+        },
+        {
+          "title": "Lessons for a Master",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E09"
+        },
+        {
+          "title": "Green Destiny",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S09E10"
+        }
+      ],
+      "Season 10": [
+        {
+          "title": "The Darkness Comes",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S10E01"
+        },
+        {
+          "title": "Into the Breach",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S10E02"
+        },
+        {
+          "title": "The Fall",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S10E03"
+        },
+        {
+          "title": "Endings",
+          "duration": "22m",
+          "video": "https://archive.org/embed/ninjago_S10E04"
+        }
+      ],
+      "Season 11": [
+        {
+          "title": "Wasted True Potential",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E01"
+        },
+        {
+          "title": "Questing for Quests",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E02"
+        },
+        {
+          "title": "A Rocky Start",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E03"
+        },
+        {
+          "title": "The Belly of the Beast",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E04"
+        },
+        {
+          "title": "Boobytraps and How to Survive Them",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E05"
+        },
+        {
+          "title": "The News Never Sleeps!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E06"
+        },
+        {
+          "title": "Ninja vs Lava",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E07"
+        },
+        {
+          "title": "Snaketastrophy",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E08"
+        },
+        {
+          "title": "Powerless",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E09"
+        },
+        {
+          "title": "Ancient History",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E10"
+        },
+        {
+          "title": "Never Trust a Human",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E11"
+        },
+        {
+          "title": "Under Siege",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E12"
+        },
+        {
+          "title": "The Explorers Club",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E13"
+        },
+        {
+          "title": "Vengeance is Mine!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E14"
+        },
+        {
+          "title": "A Cold Goodbye",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E15"
+        },
+        {
+          "title": "The Never-Realm",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E16"
+        },
+        {
+          "title": "Fire Maker",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E17"
+        },
+        {
+          "title": "An Unlikely Ally",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E18"
+        },
+        {
+          "title": "The Absolute Worst",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E19"
+        },
+        {
+          "title": "The Message",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E20"
+        },
+        {
+          "title": "The Traveler's Tree",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E21"
+        },
+        {
+          "title": "Krag's Lament",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E22"
+        },
+        {
+          "title": "Secret of the Wolf",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E23"
+        },
+        {
+          "title": "The Last of the Formlings",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E24"
+        },
+        {
+          "title": "My Enemy, My Friend",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E25"
+        },
+        {
+          "title": "The Kaiju Protocol",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E26"
+        },
+        {
+          "title": "Corruption",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E27"
+        },
+        {
+          "title": "A Fragile Hope",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E28"
+        },
+        {
+          "title": "Once and for All",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E29"
+        },
+        {
+          "title": "Awakenings",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S11E30"
+        }
+      ],
+      "Season 12": [
+        {
+          "title": "Would You Like to Enter Prime Empire?",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E01"
+        },
+        {
+          "title": "Dyer Island",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E02"
+        },
+        {
+          "title": "Level Thirteen",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E03"
+        },
+        {
+          "title": "Superstar Rockin' Jay",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E04"
+        },
+        {
+          "title": "I am Okino",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E05"
+        },
+        {
+          "title": "The Glitch",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E06"
+        },
+        {
+          "title": "The Cliffs of Hysteria",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E07"
+        },
+        {
+          "title": "The Maze of the Red Dragon",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E08"
+        },
+        {
+          "title": "One Step Forward, Two Steps Back",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E09"
+        },
+        {
+          "title": "Racer Seven",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E10"
+        },
+        {
+          "title": "The Speedway Five-Billion",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E11"
+        },
+        {
+          "title": "Stop, Drop and Side Scroll",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E12"
+        },
+        {
+          "title": "Ninjago Confidential",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E13"
+        },
+        {
+          "title": "The Prodigal Father",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E14"
+        },
+        {
+          "title": "The Temple of Madness",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E15"
+        },
+        {
+          "title": "Game Over",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S12E16"
+        }
+      ],
+      "Season 13": [
+        {
+          "title": "Shintaro",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E01"
+        },
+        {
+          "title": "Into the Dark",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E02"
+        },
+        {
+          "title": "The Worst Rescue Ever",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E03"
+        },
+        {
+          "title": "The Two Blades",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E04"
+        },
+        {
+          "title": "Queen of the Munce",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E05"
+        },
+        {
+          "title": "Trial By Mino",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E06"
+        },
+        {
+          "title": "The Skull Sorcerer",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E07"
+        },
+        {
+          "title": "The Real Fall",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E08"
+        },
+        {
+          "title": "Dungeon Party!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E09"
+        },
+        {
+          "title": "Dungeon Crawl!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E10"
+        },
+        {
+          "title": "Grief-Bringer",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E11"
+        },
+        {
+          "title": "Masters Never Quit",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E12"
+        },
+        {
+          "title": "The Darkest Hour",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E13"
+        },
+        {
+          "title": "The Ascent",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E14"
+        },
+        {
+          "title": "The Upply Strike Back!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E15"
+        },
+        {
+          "title": "The Son of Lilly",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S13E16"
+        }
+      ],
+      "The Island": [
+        {
+          "title": "Uncharted",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_TIE01"
+        },
+        {
+          "title": "The Keepers of the Amulet",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_TIE02"
+        },
+        {
+          "title": "The Gift of Jay",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_TIE03"
+        },
+        {
+          "title": "The Tooth of Wojira",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_TIE04"
+        }
+      ],
+      "Season 14": [
+        {
+          "title": "A Big Splash",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E01"
+        },
+        {
+          "title": "The Call of the Deep",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E02"
+        },
+        {
+          "title": "Unsinkable",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E03"
+        },
+        {
+          "title": "Five Thousand Fathoms Down",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E04"
+        },
+        {
+          "title": "The Wrath of Kalmaar",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E05"
+        },
+        {
+          "title": "Long Live the King",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E06"
+        },
+        {
+          "title": "Escape from Merlopia",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E07"
+        },
+        {
+          "title": "The Tale of Benthomaar",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E08"
+        },
+        {
+          "title": "The Storm Amulet",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E09"
+        },
+        {
+          "title": "Riddle of the Sphinx",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E10"
+        },
+        {
+          "title": "Papergirl",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E11"
+        },
+        {
+          "title": "Master of the Sea",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E12"
+        },
+        {
+          "title": "The Calm Before the Storm",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E13"
+        },
+        {
+          "title": "Assault on Ninjago City",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E14"
+        },
+        {
+          "title": "Nyad",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E15"
+        },
+        {
+          "title": "The Turn of the Tide",
+          "duration": "11m",
+          "video": "https://archive.org/embed/ninjago_S14E16"
+        }
+      ],
+      "Season 15": [
+        {
+          "title": "Farewell the Sea",
+          "duration": "11m",
+          "video": "https://archive.org/embed/181.-farewell-the-sea"
+        },
+        {
+          "title": "The Call of Home",
+          "duration": "11m",
+          "video": "https://archive.org/embed/182.-the-call-of-home"
+        },
+        {
+          "title": "The Shape of Nya",
+          "duration": "11m",
+          "video": "https://archive.org/embed/183.-the-shape-of-nya"
+        },
+        {
+          "title": "A Mayor Problem",
+          "duration": "11m",
+          "video": "https://archive.org/embed/184.-a-mayor-problem"
+        },
+        {
+          "title": "Public Enemies 1, 2, 3, 4, and 5!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/185.-public-enemy-1-2-3-4-5"
+        },
+        {
+          "title": "A Painful Promise",
+          "duration": "11m",
+          "video": "https://archive.org/embed/186.-a-painful-promise"
+        },
+        {
+          "title": "Ninjago City vs. Ninja",
+          "duration": "11m",
+          "video": "https://archive.org/embed/187.-ninjago-city-vs-ninja"
+        },
+        {
+          "title": "Kryptarium Prison Blues",
+          "duration": "11m",
+          "video": "https://archive.org/embed/188.-kryptarium-prison-blues"
+        },
+        {
+          "title": "HoundDog McBrag",
+          "duration": "11m",
+          "video": "https://archive.org/embed/189.-hounddog-mc-brag"
+        },
+        {
+          "title": "The Benefit of Grief",
+          "duration": "11m",
+          "video": "https://archive.org/embed/190.-the-benefit-of-grief"
+        },
+        {
+          "title": "The Fifth Villain",
+          "duration": "11m",
+          "video": "https://archive.org/embed/191.-the-fifth-villain"
+        },
+        {
+          "title": "The Council of the Crystal King",
+          "duration": "11m",
+          "video": "https://archive.org/embed/192.-the-council-of-the-crystal-king"
+        },
+        {
+          "title": "A Sinister Shadow",
+          "duration": "11m",
+          "video": "https://archive.org/embed/193.-a-sinister-shadow"
+        },
+        {
+          "title": "The Spider's Design",
+          "duration": "11m",
+          "video": "https://archive.org/embed/194.-the-spiders-design"
+        },
+        {
+          "title": "The Fall of the Monastery",
+          "duration": "11m",
+          "video": "https://archive.org/embed/195.-the-fall-of-the-monastery"
+        },
+        {
+          "title": "Darkness Within",
+          "duration": "11m",
+          "video": "https://archive.org/embed/196.-darkness-within"
+        },
+        {
+          "title": "The Coming of the King",
+          "duration": "11m",
+          "video": "https://archive.org/embed/197.-the-coming-of-the-king"
+        },
+        {
+          "title": "Return to Primeval's Eye",
+          "duration": "11m",
+          "video": "https://archive.org/embed/198.-return-to-primevals-eye"
+        },
+        {
+          "title": "Crystastrophe",
+          "duration": "11m",
+          "video": "https://archive.org/embed/199.-crystastrophe"
+        },
+        {
+          "title": "Christofern",
+          "duration": "11m",
+          "video": "https://archive.org/embed/200.-christofern"
+        },
+        {
+          "title": "A Lesson in Anger",
+          "duration": "11m",
+          "video": "https://archive.org/embed/201.-a-lesson-in-anger"
+        },
+        {
+          "title": "Brave But Foolish",
+          "duration": "11m",
+          "video": "https://archive.org/embed/202.-brave-but-foolish"
+        },
+        {
+          "title": "Quittin' Time!",
+          "duration": "11m",
+          "video": "https://archive.org/embed/203.-quittin-time"
+        },
+        {
+          "title": "Return of the Ice Emperor",
+          "duration": "11m",
+          "video": "https://archive.org/embed/204.-return-of-the-ice-emperor"
+        },
+        {
+          "title": "Safe Haven",
+          "duration": "11m",
+          "video": "https://archive.org/embed/205.-safe-haven"
+        },
+        {
+          "title": "Compatible",
+          "duration": "11m",
+          "video": "https://archive.org/embed/206.-compatible"
+        },
+        {
+          "title": "Distress Calls",
+          "duration": "11m",
+          "video": "https://archive.org/embed/207.-distress-calls"
+        },
+        {
+          "title": "An Issue of Trust",
+          "duration": "11m",
+          "video": "https://archive.org/embed/208.-an-issue-of-trust"
+        },
+        {
+          "title": "Dragon Form",
+          "duration": "11m",
+          "video": "https://archive.org/embed/209.-dragon-form"
+        },
+        {
+          "title": "Roots",
+          "duration": "11m",
+          "video": "https://archive.org/embed/210.-roots"
+        }
+      ]
+    },
+    "seasonPosters": {
+      "Pilot": "images/poster.jpeg",
+      "Season 1": "images/season1 alt.webp",
+      "Season 2": "images/season2.webp",
+      "Season 3": "images/season3.webp",
+      "Season 4": "images/season4.webp",
+      "Season 5": "images/season5.webp",
+      "Season 6": "images/season6.webp",
+      "Day of The Departed": "images/dotd.webp",
+      "Season 7": "images/season7.webp",
+      "Season 8": "images/season8.webp",
+      "Season 9": "images/season9.webp",
+      "Season 10": "images/season10.webp",
+      "Season 11": "images/season11.webp",
+      "Season 12": "images/season12.webp",
+      "Season 13": "images/season13.jpg",
+      "The Island": "images/TI.webp",
+      "Season 14": "images/season14.webp",
+      "Season 15": "images/season15.webp"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Dragon Rising",
+    "status": "Ongoing",
+    "rating": "8.4",
+    "poster": "images/DRS.webp",
+    "backdrop": "images/drs1.jpg",
+    "description": "In the series, many legendary realms have suddenly combined into one, but their union is unstable. A Spinjitzu Ninja Master must train a new generation of heroes to help find Elemental Dragons who can save the planet before the forces of evil use the same dragon energy to destroy this new world",
+    "cast": [
+      "Actor A",
+      "Actor B"
+    ],
+    "trailer": "oantsdewbgdf",
+    "episodes": {
+      "Season 1": [
+        {
+          "title": "The Merge Part I",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-1-the-merge-part-1"
+        },
+        {
+          "title": "The Merge Part II",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-2-the-merge-part-2"
+        },
+        {
+          "title": "Crossroads Carnival",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-3-crossroads-carnival"
+        },
+        {
+          "title": "Beyond Madness",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-4-beyond-madness"
+        },
+        {
+          "title": "Writers of Destiny",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-5-writers-of-destiny"
+        },
+        {
+          "title": "Return to Imperium",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-6-return-to-imperium"
+        },
+        {
+          "title": "Mindless Beasts",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-7-mindless-beasts"
+        },
+        {
+          "title": "I Will Be the Danger",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-8-i-will-be-the-danger"
+        },
+        {
+          "title": "The Calm Inside",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-9-the-calm-inside"
+        },
+        {
+          "title": "The Battle of the Second Monastery",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-10-the-battle-of-the-second-monastery"
+        },
+        {
+          "title": "The Temple of the Dragon Cores",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-11-the-temple-of-the-dragon-cores"
+        },
+        {
+          "title": "Gangs of the Sea",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-12-gangs-of-the-sea"
+        },
+        {
+          "title": "Wyldly Inappropriate",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-13-wyldly-inappropriate"
+        },
+        {
+          "title": "The Last Djinn",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-14-the-last-djinn"
+        },
+        {
+          "title": "They Call It Doom",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-15-they-call-it-doom"
+        },
+        {
+          "title": "Land of Lost Things",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-16-land-of-lost-things"
+        },
+        {
+          "title": "The Administration",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-17-the-administration"
+        },
+        {
+          "title": "Absolute Power",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-18-absolute-power"
+        },
+        {
+          "title": "We Are All Dragons",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-19-we-are-all-dragons"
+        },
+        {
+          "title": "The Power Within",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-20-the-power-within"
+        }
+      ],
+      "Season 2": [
+        {
+          "title": "The Blood Moon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-21-the-blood-moon"
+        },
+        {
+          "title": "Shattered Dreams",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-22-shattered-dreams"
+        },
+        {
+          "title": "Beyond the Phantasm Cave",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-23-beyond-the-phantasm-cave"
+        },
+        {
+          "title": "Force From the East",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-24-force-from-the-east"
+        },
+        {
+          "title": "The Spell at the Waterfall",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-25-the-spell-at-the-waterfall"
+        },
+        {
+          "title": "To Mysterium",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-26-to-mysterium"
+        },
+        {
+          "title": "Fugitives From Madness",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-27-fugitives-from-madness"
+        },
+        {
+          "title": "Secrets of the Wyldness",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-28-secrets-of-the-wyldness"
+        },
+        {
+          "title": "The Forest of Spirits",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-29-the-forest-of-spirits"
+        },
+        {
+          "title": "Rising Ninja",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-30-rising-ninja"
+        },
+        {
+          "title": "The Shape of Motion",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-31-the-shape-of-motion"
+        },
+        {
+          "title": "Enter the City of Temples",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-32-enter-the-city-of-temples"
+        },
+        {
+          "title": "They Gather for the Feast",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-33-they-gather-for-the-feast"
+        },
+        {
+          "title": "Inside the Maze",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-34-inside-the-maze"
+        },
+        {
+          "title": "United We Fall",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-35-united-we-fall"
+        },
+        {
+          "title": "Truth and Lies",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-36-truth-and-lies"
+        },
+        {
+          "title": "The Sword Shatters",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-37-the-sword-shatters"
+        },
+        {
+          "title": "Clues and Suspects",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-38-clues-and-suspects"
+        },
+        {
+          "title": "The Final Game",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-39-the-final-game"
+        },
+        {
+          "title": "Elements of Betrayal",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-40-elements-of-betrayal"
+        }
+      ],
+      "Season 3": [
+        {
+          "title": "The Missing",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-41-the-missing"
+        },
+        {
+          "title": "The Ultimate Object of Admiration",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-42-the-ultimate-object-of-admiration"
+        },
+        {
+          "title": "The Spectral Lands",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-43-the-spectral-lands"
+        },
+        {
+          "title": "The Great Zane Robbery",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-44-the-great-zane-robbery"
+        },
+        {
+          "title": "I Alone Can Save Them",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-45-i-alone-can-save-them"
+        },
+        {
+          "title": "Fallen Wishes",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-46-fallen-wishes"
+        },
+        {
+          "title": "Their Draconic Majesty's Request",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-47-their-draconic-majestys-request"
+        },
+        {
+          "title": "Crashing Together",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-48-crashing-together"
+        },
+        {
+          "title": "Chaos Unchained",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-49-chaos-unchained"
+        },
+        {
+          "title": "The Shatter Dragon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-50-the-shatter-dragon_202604"
+        },
+        {
+          "title": "The Hollow Ones",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-51-the-hollow-ones"
+        },
+        {
+          "title": "Human Resources",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-52-human-resources"
+        },
+        {
+          "title": "Between You and Lee",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-53-between-you-and-lee"
+        },
+        {
+          "title": "Casket of Bones",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-54-casket-of-bones"
+        },
+        {
+          "title": "The Screaming Earth",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-55-the-screaming-earth"
+        },
+        {
+          "title": "Under the Light of a Mechanical Moon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-56-under-the-light-of-a-mechanical-moon"
+        },
+        {
+          "title": "The Vault of Focus",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-57-the-vault-of-focus"
+        },
+        {
+          "title": "For Whom the Bell Tolls",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-58-for-whom-the-bell-tolls"
+        },
+        {
+          "title": "When Doves Cry",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-59-when-doves-cry"
+        },
+        {
+          "title": "Chaos Reigns",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-60-chaos-reigns"
+        }
+      ],
+      "Season 4": [
+        {
+          "title": "The Whispering Wood",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-61-the-whispering-wood"
+        },
+        {
+          "title": "The Lean Of A Tree",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-62-the-lean-of-a-tree"
+        },
+        {
+          "title": "Tonight We Hunt Monsters",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-63-tonight-we-hunt-monsters"
+        },
+        {
+          "title": "A Wonder Of The Merged Realms",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-64-a-wonder-of-the-merged-lands"
+        },
+        {
+          "title": "Seed And Soil",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-65-seed-and-soil"
+        },
+        {
+          "title": "Just Under The Surface",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-66-just-under-the-surface"
+        },
+        {
+          "title": "The Grand Inquisitiuon",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-67-the-grand-inquisition"
+        },
+        {
+          "title": "Dying To Live",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-68-dying-to-live"
+        },
+        {
+          "title": "The Heartbeat Of All The Realms",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-69-the-heartbeat-of-all-the-realms"
+        },
+        {
+          "title": "Birthright",
+          "duration": "22m",
+          "video": "https://archive.org/embed/episode-70-birthright"
+        },
+        {
+          "title": "Monster in The Monastery",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e11_-_monster_in_the_monastery_202608"
+        },
+        {
+          "title": "The Mech Master 10,000",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e12_-_the_mech_master_10_000"
+        },
+        {
+          "title": "In the Pits",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e13_-_in_the_pits"
+        },
+        {
+          "title": "Ancient History",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e14_-_ancient_history"
+        },
+        {
+          "title": "A Frozen Scar",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e15_-_a_frozen_scar"
+        },
+        {
+          "title": "100 Eyes to See Your Soul",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e16_-_100_eyes_to_see_your_soul"
+        },
+        {
+          "title": "All Wizards Are Liars",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e17_-_all_wizards_are_liars"
+        },
+        {
+          "title": "The Summit",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e18_-_the_summit"
+        },
+        {
+          "title": "Desperately Seeking Sora",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e19_-_desperately_seeking_sora"
+        },
+        {
+          "title": "Dangerous Connections",
+          "duration": "22m",
+          "video": "https://archive.org/embed/s04e20_-_dangerous_connections"
+        }
+      ]
+    },
+    "seasonPosters": {
+      "Season 1": "images/rseason1.webp",
+      "Season 2": "images/rseason2.webp",
+      "Season 3": "images/rseason3.webp",
+      "Season 4": "images/rseason4.webp"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Ninjago Movie",
+    "status": "Complete",
+    "rating": "7.0(Mid)",
+    "poster": "images/MP.jpeg",
+    "backdrop": "images/MBG.jpg",
+    "description": "The battle for Ninjago City calls to action young Master Builder Lloyd, aka the Green Ninja, along with his friends, who are all secret ninja warriors. Led by Master Wu, as wise-cracking as he is wise, they must defeat evil warlord Garmadon, aka 'The Worst Guy Ever', who also happens to be Lloyd's dad. Pitting mech against mech and father against son, the epic showdown will test this fierce but undisciplined team of modern-day ninjas who must learn to check their egos and pull together to unleash their inner power of Spinjitzu.",
+    "cast": [
+      "Actor A",
+      "Actor B"
+    ],
+    "trailer": "https://www.youtube.com/embed/tgbNymZ7vqY",
+    "episodes": {
+      "Movie": [
+        {
+          "title": "Lego Ninjago Movie",
+          "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Day of The Departed",
+    "status": "Complete",
+    "rating": "9.2",
+    "poster": "images/unnamed.jpg",
+    "backdrop": "images/dotdbackdrop.webp",
+    "description": "The Day of the Departed is a sacred holiday that is celebrated by the people of Ninjago to commemorate their fallen ancestors and friends. On this day, the ninja split up to remember their ancestors and spend time with family members. During a visit to Ninjago History Museum, Cole (who is still a ghost) realizes that he is starting to fade away and, after discovering the Yin Blade, decides to visit the floating Temple of Airjitzu to confront the ghost of Master Yang.",
+    "cast": [
+      "Vincent Tong: Kai",
+      "Kelly Metzger: Nya",
+      "Michael Adamthwaite: Jay",
+      "Kirby Morrow: Cole",
+      "Brent Miller: Zane",
+      "Jillian Michaels: Lloyd"
+    ],
+    "trailer": "idka7ky3thcy",
+    "episodes": {
+      "Special": [
+        {
+          "title": "Day of The Departed",
+          "duration": "44m",
+          "video": "x50pa6hde76d"
+        }
+      ]
+    }
+  }
+]

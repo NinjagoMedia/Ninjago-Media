@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="description" content="Stream and browse all Ninjago seasons, episodes, and specials.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ninjago-media.netlify.app/">
+  <meta property="og:title" content="Ninjago Media">
+  <meta property="og:description" content="Stream and browse all Ninjago seasons, episodes, and specials.">
+  <meta property="og:image" content="https://ninjago-media.netlify.app/images/logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://ninjago-media.netlify.app/">
+  <meta name="twitter:title" content="Ninjago Media">
+  <meta name="twitter:description" content="Stream and browse all Ninjago seasons, episodes, and specials.">
+  <meta name="twitter:image" content="https://ninjago-media.netlify.app/images/logo.jpg">
+
+  <title>Ninjago Media</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo.jpg" type="image/jpg">
+  <!-- Plyr -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <!-- Ambient ember field (decorative, sits behind all content) -->
+  <canvas id="ember-canvas" aria-hidden="true"></canvas>
+
+  <!-- ═══════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════ -->
+  <header id="site-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <div class="header-inner flex items-center justify-between px-5 md:px-8 py-2.5">
+
+      <!-- Left: logo + nav -->
+      <div class="flex items-center gap-3 sm:gap-6">
+        <a href="#" id="logo-link" class="flex items-center gap-2.5 flex-shrink-0" aria-label="Ninjago Media — Home">
+          <img src="images/logo.jpg" alt="" class="h-7 rounded logo-img" />
+          <span class="brand-text">Ninjago Media</span>
+        </a>
+
+        <nav class="flex gap-0.5" aria-label="Main navigation">
+          <button id="home-btn" class="nav-btn active" aria-current="page">
+            <i class="fa-solid fa-house mr-1.5 text-xs opacity-60" aria-hidden="true"></i>Home
+          </button>
+          <button id="series-btn" class="nav-btn">
+            <i class="fa-solid fa-film mr-1.5 text-xs opacity-60" aria-hidden="true"></i>Series
+          </button>
+        </nav>
+      </div>
+
+      <!-- Right: search -->
+      <div class="flex items-center gap-2">
+        <button id="surprise-btn" class="search-toggle-btn" title="Surprise Me — play a random episode" aria-label="Surprise Me — play a random episode">
+          <i class="fa-solid fa-shuffle text-sm" aria-hidden="true"></i>
+        </button>
+        <div id="search-wrapper" class="search-wrapper" role="search">
+          <button id="search-toggle" class="search-toggle-btn" title="Search (press /)" aria-label="Open search" aria-expanded="false">
+            <i class="fa-solid fa-magnifying-glass text-sm" aria-hidden="true"></i>
+          </button>
+          <input id="search-input" type="search" placeholder="Search series, episodes…"
+                 class="search-input" autocomplete="off" aria-label="Search shows and episodes" />
+          <button id="search-clear" class="search-clear sr-hide" aria-label="Clear search">
+            <i class="fa-solid fa-xmark text-xs" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search results dropdown -->
+    <div id="search-results" class="search-results hidden" role="listbox" aria-label="Search results"></div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════
+       HOME PAGE
+  ═══════════════════════════════════════ -->
+  <main id="page-home">
+
+    <!-- HERO -->
+    <section id="hero" aria-label="Featured content"
+      class="relative flex flex-col justify-end overflow-hidden"
+      style="height:68vh; min-height:480px;">
+
+      <!-- Background layers -->
+      <div id="hero-bg" class="hero-bg absolute inset-0 bg-cover bg-center" aria-hidden="true"></div>
+      <div class="hero-vignette absolute inset-0" aria-hidden="true"></div>
+      <div class="hero-gradient absolute inset-0" aria-hidden="true"></div>
+
+      <!-- Slide indicators -->
+      <div id="hero-indicators" class="absolute bottom-7 right-8 flex gap-2 z-20"
+           role="tablist" aria-label="Featured content slides"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-xl pb-10 sm:pb-14 px-5 sm:px-8 md:px-14">
+        <div id="hero-meta" class="hero-meta-row"></div>
+        <h1 id="hero-title" class="hero-title mb-3"></h1>
+        <p id="hero-desc" class="hero-desc mb-6"></p>
+        <div class="flex gap-3 flex-wrap">
+          <button id="hero-play" class="btn-play">
+            <i class="fa-solid fa-play mr-2 text-xs" aria-hidden="true"></i>Watch Now
+          </button>
+          <button class="more-info-btn btn-info">
+            <i class="fa-solid fa-circle-info mr-2 text-xs" aria-hidden="true"></i>Details
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRENDING NOW -->
+    <section id="trending-section" class="hidden px-5 md:px-8 pt-9 pb-2">
+      <div class="section-header mb-5">
+        <span class="accent-bar" aria-hidden="true"></span>
+        <h2 class="section-title">Trending Now</h2>
+      </div>
+      <div id="trending-row" class="card-row" role="list"></div>
+    </section>
+
+    <!-- CONTINUE WATCHING -->
+    <section id="continue-watching-section" class="hidden px-5 md:px-8 pt-9 pb-2">
+      <div class="section-header mb-5">
+        <span class="accent-bar" aria-hidden="true"></span>
+        <h2 class="section-title">Continue Watching</h2>
+      </div>
+      <div id="continue-watching-row" class="card-row" role="list"></div>
+    </section>
+
+    <!-- WATCHLIST -->
+    <section id="watchlist-section" class="hidden px-5 md:px-8 pt-7 pb-2">
+      <div class="section-header mb-5">
+        <span class="accent-bar" aria-hidden="true"></span>
+        <h2 class="section-title">My Watchlist</h2>
+      </div>
+      <div id="watchlist-row" class="card-row" role="list"></div>
+    </section>
+
+    <!-- ALL SERIES ROW -->
+    <section id="watch" class="px-5 md:px-8 pt-7 pb-2">
+      <div class="section-header-split mb-5">
+        <div class="section-header">
+          <span class="accent-bar" aria-hidden="true"></span>
+          <h2 class="section-title">All Series</h2>
+        </div>
+        <div class="section-tab-row" role="tablist" aria-label="Filter series">
+          <button class="section-tab active" data-tab="all" role="tab" aria-selected="true">all</button>
+          <button class="section-tab" data-tab="ongoing" role="tab" aria-selected="false">ongoing</button>
+          <button class="section-tab" data-tab="complete" role="tab" aria-selected="false">complete</button>
+        </div>
+      </div>
+      <div id="row" class="card-row" role="list"></div>
+    </section>
+
+    <!-- SEASON ROWS (injected by JS) -->
+    <div id="season-rows"></div>
+
+  </main>
+
+
+  <!-- ═══════════════════════════════════════
+       SERIES PAGE
+  ═══════════════════════════════════════ -->
+  <div id="page-series" class="hidden pt-20 px-5 md:px-8 pb-16 min-h-screen" role="main">
+    <div class="section-header-split mb-7">
+      <div class="section-header">
+        <span class="accent-bar" aria-hidden="true"></span>
+        <h2 class="section-title">All Series</h2>
+      </div>
+      <div class="flex gap-2 items-center flex-wrap">
+        <div class="flex gap-2" role="group" aria-label="Filter by status">
+          <button class="series-filter-btn active" data-filter="all">All</button>
+          <button class="series-filter-btn" data-filter="ongoing">Ongoing</button>
+          <button class="series-filter-btn" data-filter="complete">Complete</button>
+        </div>
+        <select id="series-sort" class="season-select" style="padding:6px 30px 6px 10px; font-size:0.78rem;" aria-label="Sort series">
+          <option value="rating">Top Rated</option>
+          <option value="az">Title A–Z</option>
+          <option value="za">Title Z–A</option>
+        </select>
+      </div>
+    </div>
+    <div id="series-grid"
+         class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4"
+         role="list"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       INFO MODAL
+  ═══════════════════════════════════════ -->
+  <div id="modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4"
+       role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div id="modal-backdrop-click" class="modal-scrim absolute inset-0"></div>
+
+    <div id="modal-content" class="modal-panel relative w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden">
+
+      <!-- Backdrop image -->
+      <div id="modal-backdrop-image" class="modal-backdrop-img relative flex-shrink-0">
+        <div class="modal-backdrop-fade absolute inset-0"></div>
+        <button id="modal-close" class="close-btn absolute top-3.5 right-3.5 z-20" aria-label="Close details">
+          <i class="fa-solid fa-xmark text-sm" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body px-5 pt-0 pb-6 flex gap-4">
+        <!-- Poster lifts above backdrop -->
+        <div class="modal-poster-wrap flex-shrink-0">
+          <img id="modal-poster" class="modal-poster-img" src="" alt="Poster" />
+        </div>
+
+        <div class="flex flex-col min-w-0 pt-3">
+          <h2 id="modal-title" class="modal-heading mb-1.5"></h2>
+          <div id="modal-meta-row" class="modal-rating-row"></div>
+          <div id="modal-star-rating" class="star-rating mb-1"></div>
+          <div id="modal-rating-note" class="rating-sync-note mb-3.5"></div>
+          <p id="modal-desc" class="text-gray-400 text-sm leading-relaxed mb-2 line-clamp-4"></p>
+          <p id="modal-cast" class="text-gray-600 text-xs leading-relaxed"></p>
+
+          <div class="flex gap-2 mt-5 flex-wrap">
+            <button id="modal-watch-btn" class="btn-play text-sm py-2 px-4">
+              <i class="fa-solid fa-play mr-2 text-xs" aria-hidden="true"></i>Watch
+            </button>
+            <button id="modal-fav-btn" class="btn-info text-sm py-2 px-4">
+              <i class="fa-regular fa-bookmark mr-2 text-xs" aria-hidden="true"></i>Watchlist
+            </button>
+            <button id="modal-trailer-btn" class="btn-info text-sm py-2 px-4 hidden">
+              <i class="fa-solid fa-film mr-2 text-xs" aria-hidden="true"></i>Trailer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       TRAILER MODAL
+  ═══════════════════════════════════════ -->
+  <div id="trailer-modal" class="fixed inset-0 hidden bg-black/95 z-[60] flex items-center justify-center"
+       role="dialog" aria-modal="true" aria-label="Trailer player">
+    <div class="trailer-frame-wrap relative w-[92%] max-w-3xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
+      <button id="trailer-close" class="close-btn absolute top-3.5 right-3.5 z-10" aria-label="Close trailer">
+        <i class="fa-solid fa-xmark text-sm" aria-hidden="true"></i>
+      </button>
+      <iframe id="trailer-frame" class="w-full h-full" src="" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen sandbox="allow-scripts allow-same-origin allow-presentation"
+        title="Trailer"></iframe>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       WATCH MENU MODAL
+  ═══════════════════════════════════════ -->
+  <div id="watch-modal" class="fixed inset-0 hidden z-[55] flex items-center justify-center bg-black/90 py-6 overflow-y-auto"
+       role="dialog" aria-modal="true" aria-labelledby="watch-title">
+    <div id="watch-inner" class="watch-panel relative w-[96%] max-w-5xl rounded-2xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
+
+      <button id="watch-close" class="close-btn absolute top-3.5 right-3.5 z-20" aria-label="Close watch menu">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+
+      <!-- Backdrop banner -->
+      <div id="watch-backdrop" class="watch-backdrop relative flex-shrink-0">
+        <div class="watch-backdrop-fade absolute inset-0"></div>
+        <div class="absolute bottom-4 left-5 z-10">
+          <h2 id="watch-title" class="modal-heading"></h2>
+          <p id="watch-rating" class="watch-rating-sub"></p>
+        </div>
+      </div>
+
+      <!-- Content area -->
+      <div id="watch-content" class="p-5 md:p-6 overflow-y-auto flex-grow">
+        <div class="flex flex-col sm:flex-row gap-5">
+
+          <!-- Poster -->
+          <div class="flex-shrink-0 flex sm:block justify-center">
+            <img id="watch-poster" class="watch-poster-img" src="" alt="Series poster" />
+          </div>
+
+          <!-- Episodes -->
+          <div class="flex flex-col w-full min-w-0">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="season-label">Season</span>
+              <select id="season-select" class="season-select" aria-label="Select season"></select>
+            </div>
+            <div id="episodes-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5" role="list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       VIDEO PLAYER MODAL
+  ═══════════════════════════════════════ -->
+  <div id="video-modal" class="fixed inset-0 hidden bg-black/95 z-[65] flex flex-col items-center justify-center"
+       role="dialog" aria-modal="true" aria-label="Video player">
+    <div class="video-player-wrap relative w-[94%] max-w-4xl bg-black rounded-2xl overflow-hidden shadow-2xl">
+      <div class="video-player-header flex items-center justify-between px-4 py-3">
+        <span id="video-title" class="video-title-label truncate pr-4"></span>
+        <div class="flex items-center gap-1.5 flex-shrink-0">
+          <button id="video-prev-ep" class="video-nav-btn" title="Previous episode" aria-label="Previous episode">
+            <i class="fa-solid fa-backward-step" aria-hidden="true"></i>
+          </button>
+          <button id="video-lang-btn" class="video-nav-btn" title="Audio &amp; subtitles — coming soon" aria-label="Audio &amp; subtitles — coming soon">
+            <i class="fa-solid fa-closed-captioning" aria-hidden="true"></i>
+          </button>
+          <button id="video-next-ep" class="video-nav-btn" title="Next episode" aria-label="Next episode">
+            <i class="fa-solid fa-forward-step" aria-hidden="true"></i>
+          </button>
+          <button id="video-close" class="close-btn" aria-label="Close player">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div id="plyr-wrap" class="hidden aspect-video">
+        <video id="plyr-player" playsinline controls crossorigin>
+          <source id="plyr-source" src="" type="video/mp4" />
+        </video>
+      </div>
+      <div id="iframe-wrap" class="hidden aspect-video">
+        <iframe id="video-frame" class="w-full h-full" src="" frameborder="0"
+          allow="autoplay; fullscreen" allowfullscreen title="Episode player"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- TOAST -->
+  <div id="toast" class="toast" role="alert" aria-live="polite" aria-atomic="true"></div>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer id="footer" class="footer-hidden transition-all duration-500">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="images/logo.jpg" alt="Ninjago Media" class="h-7 rounded" />
+        <span class="footer-brand">Ninjago Media</span>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://discord.gg/AsC42hFkJa" target="_blank" rel="noopener noreferrer"
+           class="footer-icon footer-icon--discord" aria-label="Join our Discord">
+          <i class="fa-brands fa-discord" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/ninjagomedia/" target="_blank" rel="noopener noreferrer"
+           class="footer-icon footer-icon--instagram" aria-label="Follow on Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.tiktok.com/@ninjagomediahub" target="_blank" rel="noopener noreferrer"
+           class="footer-icon footer-icon--tiktok" aria-label="Follow on TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <p class="footer-copy">© 2026 Ninjago Media · All rights reserved.</p>
+      <p class="footer-disclaimer">Ninjago Media does not store any files on our server. We only link to media hosted on third-party services.</p>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="script.js"></script>
+  <!-- Advanced visual layer (additive; loads after the core app) -->
+  <script src="enhance.js" defer></script>
+</body>
+</html>
